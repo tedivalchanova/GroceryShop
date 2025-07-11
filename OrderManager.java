@@ -22,7 +22,7 @@ public class OrderManager {
             }
             System.out.print("Quantity: ");
             int qty = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
             orderItems.put(p, qty);
         }
 

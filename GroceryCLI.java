@@ -12,7 +12,7 @@ public class GroceryCLI {
             System.out.println("\n1. Add Product\n2. List Products\n3. Update Product\n4. Delete Product\n5. Create Order\n6. Exit");
             System.out.print("Choose option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
             switch (choice) {
                 case 1 -> inventory.addProduct(scanner);
                 case 2 -> inventory.listProducts();

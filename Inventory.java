@@ -15,7 +15,7 @@ public class Inventory {
         int x = scanner.nextInt();
         System.out.print("Y Location: ");
         int y = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine(); 
         products.put(name, new Product(name, price, quantity, x, y));
         System.out.println("Product added.");
     }
